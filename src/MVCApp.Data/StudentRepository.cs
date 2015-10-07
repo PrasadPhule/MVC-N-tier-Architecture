@@ -34,5 +34,10 @@ namespace MVCApp.Data
       _db.SaveChanges();
       return true;
     }
+
+    public bool Save()
+    {
+      throw new NotImplementedException();
+    }
   }
 }
